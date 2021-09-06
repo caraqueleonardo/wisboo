@@ -1,5 +1,4 @@
 .divOp ul{
-    /* background-color: rgb(211, 208, 208); */
     color: rgb(0, 0, 0);
     height: auto;
     width: auto;
@@ -7,9 +6,13 @@
     margin-left: 530px;
     margin-right: 530px;
     padding: 20px;
+    text-align: start;
 }
-.divOp{
+.divOp ul li{
     text-align: right;
+    float: none;
+    text-align: start;
+
 }
 
 .inputText{

@@ -139,11 +139,12 @@ function Create() {
                 e.question_type==="seleccion simple" ?(
                     <>
                         <h1>{e.text}</h1>
-                        <div className="divGen">
-                            <ul className="ilGen" >
+                        <div className="divOp">
+                            <ul  >
                                 {e.options.map((dat) => (
-                                <li className="liGen">
+                                <li >
                                     <input 
+                                    disabled
                                     className="input" 
                                     type="radio"
                                     value={dat}></input>

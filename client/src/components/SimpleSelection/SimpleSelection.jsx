@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {  createPregunta } from "../../actions/index";
 import "./SimpleSelection.css";
@@ -7,7 +7,7 @@ function SimpleSelection (){
     const encuestas = useSelector((store) => store.encuestas);
 
     const [state, setState] = useState({
-        question_type: "seleccion multiple",
+        question_type: "seleccion simple",
         text: "",
         options:[]
       });

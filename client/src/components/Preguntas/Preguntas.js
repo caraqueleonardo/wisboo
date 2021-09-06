@@ -64,10 +64,10 @@ const eliminar = (id) =>{
                 e.question_type==="seleccion simple" && e.encuestumId===id?(
                     <>
                         <h1>{e.text}</h1>
-                        <div className="divGen">
-                            <ul className="ilGen" >
+                        <div className="divOp">
+                            <ul  >
                                 {e.options.map((dat) => (
-                                <li className="liGen">
+                                <li >
                                     <input 
                                     className="input" 
                                     type="radio"

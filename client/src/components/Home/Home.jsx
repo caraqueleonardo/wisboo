@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getEncuesta, resetAll } from "../../actions/index";
+import { getEncuesta, getPreguntas, resetAll } from "../../actions/index";
 import Preguntas from "../Preguntas/Preguntas";
 import Card from "../Card/Card";
 import '../Home/Home.css'
