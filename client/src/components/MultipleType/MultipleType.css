@@ -1,0 +1,17 @@
+form textarea{
+    width: 700px;
+    height: 30px;
+}
+
+.btn1{
+    margin-top: 5px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+}
+form{
+    text-align: justify;
+    margin-left: 20px;
+}

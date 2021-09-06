@@ -1,0 +1,25 @@
+.divOp ul{
+    /* background-color: rgb(211, 208, 208); */
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-left: 530px;
+    margin-right: 530px;
+    padding: 20px;
+}
+.divOp{
+    text-align: right;
+}
+
+.inputText{
+    width: 500px;
+    height: 100px;
+}
+
+.eliminarPregunta {
+padding: 5px;
+background-color:rgba(255, 0, 0, 0.801);
+color: whitesmoke;
+border-radius: 5px;
+}
