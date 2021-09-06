@@ -52,6 +52,7 @@ const eliminar = (id) =>{
                     <h1>{e.text}</h1>
                     <p>Escriba aqui su respuesta</p>
                     <textarea className="inputText"></textarea>
+                    <br/>
                     <button className="eliminarPregunta" onClick={()=>eliminar(e.id)} >Eliminar Pregunta</button> 
                     </>
                 ):("")
