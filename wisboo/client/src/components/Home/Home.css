@@ -1,0 +1,45 @@
+
+.home{
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.home form input{
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+    border-color:blueviolet;
+
+    
+}
+.home form button {
+    border: 1px solid blueviolet;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: blueviolet;
+    padding: 5px 16px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.3;
+    transition: 0.3s;
+    border-radius: 7px;
+    width: 150px;
+
+
+}
+.home form button:hover {opacity: 1}
